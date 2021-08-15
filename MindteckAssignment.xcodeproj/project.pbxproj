@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042F565526C91057006BED1C /* CarouselImageCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F565426C91057006BED1C /* CarouselImageCollectionViewModel.swift */; };
+		042F565726C91281006BED1C /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F565626C91281006BED1C /* Images.swift */; };
+		042F565926C91D04006BED1C /* SearchResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F565826C91D04006BED1C /* SearchResultsModel.swift */; };
+		042F565D26C94EA6006BED1C /* ConstantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F565C26C94EA6006BED1C /* ConstantClass.swift */; };
+		04ED02DB26C831DF004FF900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED02DA26C831DF004FF900 /* AppDelegate.swift */; };
+		04ED02DD26C831DF004FF900 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED02DC26C831DF004FF900 /* SceneDelegate.swift */; };
+		04ED02DF26C831DF004FF900 /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED02DE26C831DF004FF900 /* CategoryListViewController.swift */; };
+		04ED02E226C831DF004FF900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED02E026C831DF004FF900 /* Main.storyboard */; };
+		04ED02E426C831E1004FF900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ED02E326C831E1004FF900 /* Assets.xcassets */; };
+		04ED02E726C831E1004FF900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED02E526C831E1004FF900 /* LaunchScreen.storyboard */; };
+		04ED02F226C831E1004FF900 /* MindteckAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED02F126C831E1004FF900 /* MindteckAssignmentTests.swift */; };
+		04ED02FD26C831E1004FF900 /* MindteckAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED02FC26C831E1004FF900 /* MindteckAssignmentUITests.swift */; };
+		04ED031226C83C32004FF900 /* SearchResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED031026C83C32004FF900 /* SearchResultsTableViewCell.swift */; };
+		04ED031326C83C32004FF900 /* SearchResultsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ED031126C83C32004FF900 /* SearchResultsTableViewCell.xib */; };
+		04ED031726C83CA4004FF900 /* ImagesCarouselTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED031526C83CA4004FF900 /* ImagesCarouselTableViewCell.swift */; };
+		04ED031826C83CA4004FF900 /* ImagesCarouselTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ED031626C83CA4004FF900 /* ImagesCarouselTableViewCell.xib */; };
+		04ED031C26C83D02004FF900 /* SearchTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED031A26C83D02004FF900 /* SearchTableViewHeaderCell.swift */; };
+		04ED031D26C83D02004FF900 /* SearchTableViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ED031B26C83D02004FF900 /* SearchTableViewHeaderCell.xib */; };
+		04ED2C7226C84EED00AB1A33 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED2C7026C84EED00AB1A33 /* ImageCollectionViewCell.swift */; };
+		04ED2C7326C84EED00AB1A33 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ED2C7126C84EED00AB1A33 /* ImageCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04ED02EE26C831E1004FF900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ED02CF26C831DF004FF900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ED02D626C831DF004FF900;
+			remoteInfo = MindteckAssignment;
+		};
+		04ED02F926C831E1004FF900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ED02CF26C831DF004FF900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ED02D626C831DF004FF900;
+			remoteInfo = MindteckAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042F565426C91057006BED1C /* CarouselImageCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselImageCollectionViewModel.swift; sourceTree = "<group>"; };
+		042F565626C91281006BED1C /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		042F565826C91D04006BED1C /* SearchResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsModel.swift; sourceTree = "<group>"; };
+		042F565C26C94EA6006BED1C /* ConstantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantClass.swift; sourceTree = "<group>"; };
+		04ED02D726C831DF004FF900 /* MindteckAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindteckAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ED02DA26C831DF004FF900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04ED02DC26C831DF004FF900 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04ED02DE26C831DF004FF900 /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		04ED02E126C831DF004FF900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04ED02E326C831E1004FF900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04ED02E626C831E1004FF900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04ED02E826C831E1004FF900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ED02ED26C831E1004FF900 /* MindteckAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindteckAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ED02F126C831E1004FF900 /* MindteckAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckAssignmentTests.swift; sourceTree = "<group>"; };
+		04ED02F326C831E1004FF900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ED02F826C831E1004FF900 /* MindteckAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindteckAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ED02FC26C831E1004FF900 /* MindteckAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckAssignmentUITests.swift; sourceTree = "<group>"; };
+		04ED02FE26C831E1004FF900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ED031026C83C32004FF900 /* SearchResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewCell.swift; sourceTree = "<group>"; };
+		04ED031126C83C32004FF900 /* SearchResultsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultsTableViewCell.xib; sourceTree = "<group>"; };
+		04ED031526C83CA4004FF900 /* ImagesCarouselTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCarouselTableViewCell.swift; sourceTree = "<group>"; };
+		04ED031626C83CA4004FF900 /* ImagesCarouselTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesCarouselTableViewCell.xib; sourceTree = "<group>"; };
+		04ED031A26C83D02004FF900 /* SearchTableViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewHeaderCell.swift; sourceTree = "<group>"; };
+		04ED031B26C83D02004FF900 /* SearchTableViewHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewHeaderCell.xib; sourceTree = "<group>"; };
+		04ED2C7026C84EED00AB1A33 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		04ED2C7126C84EED00AB1A33 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ED02D426C831DF004FF900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ED02EA26C831E1004FF900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ED02F526C831E1004FF900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042F565326C90DB4006BED1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042F565426C91057006BED1C /* CarouselImageCollectionViewModel.swift */,
+				042F565826C91D04006BED1C /* SearchResultsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04ED02CE26C831DF004FF900 = {
+			isa = PBXGroup;
+			children = (
+				04ED02D926C831DF004FF900 /* MindteckAssignment */,
+				04ED02F026C831E1004FF900 /* MindteckAssignmentTests */,
+				04ED02FB26C831E1004FF900 /* MindteckAssignmentUITests */,
+				04ED02D826C831DF004FF900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04ED02D826C831DF004FF900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04ED02D726C831DF004FF900 /* MindteckAssignment.app */,
+				04ED02ED26C831E1004FF900 /* MindteckAssignmentTests.xctest */,
+				04ED02F826C831E1004FF900 /* MindteckAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04ED02D926C831DF004FF900 /* MindteckAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				04ED031F26C83D2D004FF900 /* Supporting Files */,
+				042F565326C90DB4006BED1C /* Model */,
+				04ED030A26C8381E004FF900 /* View */,
+				04ED031E26C83D20004FF900 /* Controller */,
+				04ED02E326C831E1004FF900 /* Assets.xcassets */,
+				04ED02E526C831E1004FF900 /* LaunchScreen.storyboard */,
+				04ED02E826C831E1004FF900 /* Info.plist */,
+			);
+			path = MindteckAssignment;
+			sourceTree = "<group>";
+		};
+		04ED02F026C831E1004FF900 /* MindteckAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				04ED02F126C831E1004FF900 /* MindteckAssignmentTests.swift */,
+				04ED02F326C831E1004FF900 /* Info.plist */,
+			);
+			path = MindteckAssignmentTests;
+			sourceTree = "<group>";
+		};
+		04ED02FB26C831E1004FF900 /* MindteckAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04ED02FC26C831E1004FF900 /* MindteckAssignmentUITests.swift */,
+				04ED02FE26C831E1004FF900 /* Info.plist */,
+			);
+			path = MindteckAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		04ED030A26C8381E004FF900 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04ED02E026C831DF004FF900 /* Main.storyboard */,
+				04ED030B26C83852004FF900 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04ED030B26C83852004FF900 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04ED2C6F26C84ECB00AB1A33 /* CollectionViewCell */,
+				04ED031926C83CB3004FF900 /* TableViewHeader */,
+				04ED031426C83C5E004FF900 /* TableViewCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		04ED031426C83C5E004FF900 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				04ED031026C83C32004FF900 /* SearchResultsTableViewCell.swift */,
+				04ED031126C83C32004FF900 /* SearchResultsTableViewCell.xib */,
+				04ED031526C83CA4004FF900 /* ImagesCarouselTableViewCell.swift */,
+				04ED031626C83CA4004FF900 /* ImagesCarouselTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		04ED031926C83CB3004FF900 /* TableViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				04ED031A26C83D02004FF900 /* SearchTableViewHeaderCell.swift */,
+				04ED031B26C83D02004FF900 /* SearchTableViewHeaderCell.xib */,
+			);
+			path = TableViewHeader;
+			sourceTree = "<group>";
+		};
+		04ED031E26C83D20004FF900 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04ED02DE26C831DF004FF900 /* CategoryListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04ED031F26C83D2D004FF900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04ED02DA26C831DF004FF900 /* AppDelegate.swift */,
+				04ED02DC26C831DF004FF900 /* SceneDelegate.swift */,
+				042F565626C91281006BED1C /* Images.swift */,
+				042F565C26C94EA6006BED1C /* ConstantClass.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04ED2C6F26C84ECB00AB1A33 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				04ED2C7026C84EED00AB1A33 /* ImageCollectionViewCell.swift */,
+				04ED2C7126C84EED00AB1A33 /* ImageCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04ED02D626C831DF004FF900 /* MindteckAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ED030126C831E1004FF900 /* Build configuration list for PBXNativeTarget "MindteckAssignment" */;
+			buildPhases = (
+				04ED02D326C831DF004FF900 /* Sources */,
+				04ED02D426C831DF004FF900 /* Frameworks */,
+				04ED02D526C831DF004FF900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindteckAssignment;
+			productName = MindteckAssignment;
+			productReference = 04ED02D726C831DF004FF900 /* MindteckAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04ED02EC26C831E1004FF900 /* MindteckAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ED030426C831E1004FF900 /* Build configuration list for PBXNativeTarget "MindteckAssignmentTests" */;
+			buildPhases = (
+				04ED02E926C831E1004FF900 /* Sources */,
+				04ED02EA26C831E1004FF900 /* Frameworks */,
+				04ED02EB26C831E1004FF900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ED02EF26C831E1004FF900 /* PBXTargetDependency */,
+			);
+			name = MindteckAssignmentTests;
+			productName = MindteckAssignmentTests;
+			productReference = 04ED02ED26C831E1004FF900 /* MindteckAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04ED02F726C831E1004FF900 /* MindteckAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ED030726C831E1004FF900 /* Build configuration list for PBXNativeTarget "MindteckAssignmentUITests" */;
+			buildPhases = (
+				04ED02F426C831E1004FF900 /* Sources */,
+				04ED02F526C831E1004FF900 /* Frameworks */,
+				04ED02F626C831E1004FF900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ED02FA26C831E1004FF900 /* PBXTargetDependency */,
+			);
+			name = MindteckAssignmentUITests;
+			productName = MindteckAssignmentUITests;
+			productReference = 04ED02F826C831E1004FF900 /* MindteckAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04ED02CF26C831DF004FF900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					04ED02D626C831DF004FF900 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					04ED02EC26C831E1004FF900 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 04ED02D626C831DF004FF900;
+					};
+					04ED02F726C831E1004FF900 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 04ED02D626C831DF004FF900;
+					};
+				};
+			};
+			buildConfigurationList = 04ED02D226C831DF004FF900 /* Build configuration list for PBXProject "MindteckAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04ED02CE26C831DF004FF900;
+			productRefGroup = 04ED02D826C831DF004FF900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04ED02D626C831DF004FF900 /* MindteckAssignment */,
+				04ED02EC26C831E1004FF900 /* MindteckAssignmentTests */,
+				04ED02F726C831E1004FF900 /* MindteckAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04ED02D526C831DF004FF900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ED031D26C83D02004FF900 /* SearchTableViewHeaderCell.xib in Resources */,
+				04ED031826C83CA4004FF900 /* ImagesCarouselTableViewCell.xib in Resources */,
+				04ED031326C83C32004FF900 /* SearchResultsTableViewCell.xib in Resources */,
+				04ED2C7326C84EED00AB1A33 /* ImageCollectionViewCell.xib in Resources */,
+				04ED02E726C831E1004FF900 /* LaunchScreen.storyboard in Resources */,
+				04ED02E426C831E1004FF900 /* Assets.xcassets in Resources */,
+				04ED02E226C831DF004FF900 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ED02EB26C831E1004FF900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ED02F626C831E1004FF900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04ED02D326C831DF004FF900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042F565926C91D04006BED1C /* SearchResultsModel.swift in Sources */,
+				04ED02DF26C831DF004FF900 /* CategoryListViewController.swift in Sources */,
+				04ED031726C83CA4004FF900 /* ImagesCarouselTableViewCell.swift in Sources */,
+				042F565526C91057006BED1C /* CarouselImageCollectionViewModel.swift in Sources */,
+				04ED02DB26C831DF004FF900 /* AppDelegate.swift in Sources */,
+				042F565726C91281006BED1C /* Images.swift in Sources */,
+				04ED2C7226C84EED00AB1A33 /* ImageCollectionViewCell.swift in Sources */,
+				04ED02DD26C831DF004FF900 /* SceneDelegate.swift in Sources */,
+				04ED031C26C83D02004FF900 /* SearchTableViewHeaderCell.swift in Sources */,
+				042F565D26C94EA6006BED1C /* ConstantClass.swift in Sources */,
+				04ED031226C83C32004FF900 /* SearchResultsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ED02E926C831E1004FF900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ED02F226C831E1004FF900 /* MindteckAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ED02F426C831E1004FF900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ED02FD26C831E1004FF900 /* MindteckAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04ED02EF26C831E1004FF900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ED02D626C831DF004FF900 /* MindteckAssignment */;
+			targetProxy = 04ED02EE26C831E1004FF900 /* PBXContainerItemProxy */;
+		};
+		04ED02FA26C831E1004FF900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ED02D626C831DF004FF900 /* MindteckAssignment */;
+			targetProxy = 04ED02F926C831E1004FF900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04ED02E026C831DF004FF900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ED02E126C831DF004FF900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04ED02E526C831E1004FF900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ED02E626C831E1004FF900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04ED02FF26C831E1004FF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04ED030026C831E1004FF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04ED030226C831E1004FF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindteckAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.MindteckAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04ED030326C831E1004FF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindteckAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.MindteckAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04ED030526C831E1004FF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindteckAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.MindteckAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindteckAssignment.app/MindteckAssignment";
+			};
+			name = Debug;
+		};
+		04ED030626C831E1004FF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindteckAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.MindteckAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindteckAssignment.app/MindteckAssignment";
+			};
+			name = Release;
+		};
+		04ED030826C831E1004FF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindteckAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.MindteckAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindteckAssignment;
+			};
+			name = Debug;
+		};
+		04ED030926C831E1004FF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindteckAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.co.in.MindteckAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindteckAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ED02D226C831DF004FF900 /* Build configuration list for PBXProject "MindteckAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ED02FF26C831E1004FF900 /* Debug */,
+				04ED030026C831E1004FF900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ED030126C831E1004FF900 /* Build configuration list for PBXNativeTarget "MindteckAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ED030226C831E1004FF900 /* Debug */,
+				04ED030326C831E1004FF900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ED030426C831E1004FF900 /* Build configuration list for PBXNativeTarget "MindteckAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ED030526C831E1004FF900 /* Debug */,
+				04ED030626C831E1004FF900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ED030726C831E1004FF900 /* Build configuration list for PBXNativeTarget "MindteckAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ED030826C831E1004FF900 /* Debug */,
+				04ED030926C831E1004FF900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04ED02CF26C831DF004FF900 /* Project object */;
+}
